@@ -143,7 +143,7 @@ window.addEventListener("DOMContentLoaded",() => {
               let formData = new FormData()
               formData.append('image', file)
               this.progressLoop();
-              fetch('http://reshmanov21.pythonanywhere.com/imageUpload', {
+              fetch('https://reshmanov21.pythonanywhere.com/imageUpload', {
                 method: 'POST',
                 body: formData
              })
